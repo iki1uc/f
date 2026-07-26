@@ -1,0 +1,10 @@
+#F-ROOM
+NAME: F
+TYPE: FILTER-ENGINE
+MODE: CLEAN
+STATE: ACTIVE
+
+DESCRIPTION:
+F ist die universelle Filter-Ebene.
+Sie sortiert, reinigt, ordnet und stabilisiert alle Module,
+bevor sie in andere Räume weitergegeben werden.
