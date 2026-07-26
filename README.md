@@ -1,28 +1,64 @@
-# ANKER – Stabilisationsachse · iki1uc
+# f · FILTER · CLEAN · ORDER · ENGINE
 
-## Zweck
-ANKER ist die Stabilisationsachse des iki1uc‑Systems.
-Es hält die Achsen IQ, QI, EVO, UPD, UPG, BIOS und CALC im korrekten Verhältnis.
+Der Ordner **f/** ist die zentrale Filter-Ebene des iki1uc-Systems.
+Er dient als Vorstufe für alle anderen Räume und Engines.
 
-## Struktur
-- NAME: ANKER
-- ID: A01
-- Station: S01
-- Dimension: D4
-- Modus: erabel (neutral, operation möglich)
+f übernimmt:
 
-## Rolle
-ANKER stabilisiert, ohne selbst aktiv zu berechnen oder zu steuern.
-Es ist die neutrale Achse zwischen AXI, 6d und API.
+- Filterung
+- Reinigung
+- Ordnung
+- Klassifikation
+- Stabilisierung
+- Vorverarbeitung
 
-## Bindungen
-- AXI
-- 6d
-- 360
-- 100
-- 213 (REAL)
-- API
+f ist vollständig unabhängig und kann jedes Modul vorbereiten.
+
+---
+
+## Inhalt
+
+f.room
+README.md
+id.html
+index.html
+
+
+---
+
+## Funktionen
+
+### 1. Filter-Engine
+Entfernt Fehler, Noise, leere Module und defekte TMP-Dateien.
+
+### 2. Clean-Engine
+Reinigt Cluster, Rooms, Achsen und Pipelines.
+
+### 3. Order-Engine
+Sortiert Module nach Typ, Raum, Achse und Engine.
+
+### 4. Pre-Process
+Bereitet Daten für RAW, SCAN, EDIT, NC und VECTOR vor.
+
+---
 
 ## Status
-STATE = STABIL  
-READY = 100%
+
+
+
+EBENE: aktiv
+FILTER: bereit
+CLEAN: stabil
+ORDER: aktiv
+
+
+---
+
+## Start
+
+Öffne:
+
+index.html
+
+
+um die Filter-Ebene zu aktivieren.
